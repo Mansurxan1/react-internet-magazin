@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Filtr = ({ onSort }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [selectedFilter, setSelectedFilter] = useState("Filtr");
-
+  const { t, i18n } = useTranslation();
   const handleSort = (sortType, label) => {
     onSort({ sortType }); 
     setSelectedFilter(label);
@@ -11,7 +12,7 @@ const Filtr = ({ onSort }) => {
   };
 
   const handleReset = () => {
-    setSelectedFilter("Filtr"); 
+    setSelectedFilter("Filter"); 
     setIsDropdownOpen(false);
     onSort({ sortType: "" });
   };
@@ -27,15 +28,15 @@ const Filtr = ({ onSort }) => {
       {isDropdownOpen && (
         <div className="dropdown">
           <button onClick={() => handleSort("price_asc", "Pastdan yuqoriga")}>
-            Narx: pastdan yuqoriga
+            {t("pricefromlowtohigh")}
           </button>
           <button onClick={() => handleSort("price_desc", "Yuqoridan pastga")}>
-            Narx: yuqoridan pastga
+            {t("pricetopdown")}
           </button>
           <button onClick={() => handleSort("rating_desc", "Reyting")}>
-            Reyting
+          {t("rating")}
           </button>
-          <button onClick={handleReset}>Filtrni tozalash</button>
+          <button onClick={handleReset}>{t("filtercleaning")}</button>
         </div>
       )}
     </section>

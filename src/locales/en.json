@@ -16,7 +16,6 @@
   "cart": "Cart",
   "cartEmpty": "Cart empty",
   "price": "Price",
-  "rating": "Rating",
   "description": "Description",
   "delivery": "Delivery ",
   "reviews": "Reviews",
@@ -40,5 +39,12 @@
   "home": "Home",
   "favorites": "Favorites",
   "noFavorites": "Not Favorites",
-  "back": "Back"
+  "back": "Back",
+  "pricefromlowtohigh": "From low to high",
+  "pricetopdown": "Top down",
+  "rating": "Rating",
+  "filtercleaning": "Filter cleaning",
+  "clear1": "Clear",
+  "Confirmation": "Confirmation",
+  "Minimumorderquantity": "Minimum order quantity"
 }

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { FaCartPlus, FaTimes, FaHeart } from "react-icons/fa";
@@ -87,7 +87,7 @@ const ProductDetails = () => {
                 </p>
               )}
               <p className="product__details-quanty">
-                <strong>Minimum order quantity:</strong> {product.minimumOrderQuantity}
+                <strong>{t("Minimumorderquantity")}:</strong> {product.minimumOrderQuantity}
               </p>
             </div>
 

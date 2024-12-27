@@ -688,7 +688,6 @@
     }
 }
 
-
 .cart__page {
   padding-top: 80px;
   background: var(--cart-bg);
@@ -887,7 +886,6 @@
     }
   }
 }
-
 
 .modal-overlay {
   position: fixed;
@@ -1144,7 +1142,7 @@
     }
     &-box{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fill , minmax(200px, 1fr));
         margin: 0;
         gap: 15px 20px;
         p{
