@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useTranslation } from "react-i18next";
-import AOS from 'aos';
+import { useTranslation } from "react-i18next"; 
 import 'aos/dist/aos.css'; 
 
 
@@ -22,7 +21,7 @@ const Sidebar = ({ isVisible, setSidebarVisible }) => {
 
   const handleCategoryClick = () => {
     if (window.innerWidth < 850) {
-      setSidebarVisible(false); // Sidebarni yopish
+      setSidebarVisible(false);
     }
   };
 

@@ -40,5 +40,11 @@
   "home": "Bosh sahifa",
   "favorites": "Saralanganlar",
   "noFavorites": "Saralangan Mahsulotlar Yo'q",
-  "back": "Ortga"
+  "back": "Ortga",
+  "pricefromlowtohigh": "Pastdan yuqoriga",
+  "pricetopdown": "Yuqoridan pastga",
+  "filtercleaning": "Filterni tozalash",
+  "clear1": "Bekor qilish",
+  "Confirmation": "Tasdiqlash",
+  "Minimumorderquantity": "Minimal buyurtma miqdori"
 }

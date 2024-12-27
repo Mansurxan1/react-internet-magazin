@@ -1,10 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 const Modal = ({ isOpen, onClose, onConfirm, items }) => {
   if (!isOpen) return null;
-
+  const { t, i18n } = useTranslation();
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <h2>Xaridni tasdiqlash</h2>
+        <h2>{t("purchase")}</h2>
         <div className="modal-items">
           {items.map((item, index) => (
             <div key={index} className="modal-item">
@@ -15,10 +17,10 @@ const Modal = ({ isOpen, onClose, onConfirm, items }) => {
         </div>
         <div className="modal-actions">
           <button className="modal-button confirm" onClick={onConfirm}>
-            Tasdiqlash
+            {t("Confirmation")}
           </button>
           <button className="modal-button cancel" onClick={onClose}>
-            Bekor qilish
+            {t("clear1")}
           </button>
         </div>
       </div>

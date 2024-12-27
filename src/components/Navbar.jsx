@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import { TbCategory } from "react-icons/tb";
 import { FaCartShopping, FaSun, FaHeart } from "react-icons/fa6";
