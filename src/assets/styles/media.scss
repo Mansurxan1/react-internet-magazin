@@ -57,8 +57,10 @@
   .sidebar{
     display: none;
     position: absolute;
-    margin-top: 0;
-    width: 100%;
+    margin-top: 60px;
+    right: 0;
+    bottom: 0;
+    width: auto;
     
     &.show {
       display: block;
@@ -66,7 +68,6 @@
     &__list{
       display: flex;
       align-items: center;
-      align-content: center;
     }
   }
   .category__products-head{

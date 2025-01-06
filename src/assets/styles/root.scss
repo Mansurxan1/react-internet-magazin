@@ -1,34 +1,39 @@
 :root.light {
-  --background-color: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-;
-  --text-color: #000;
-  --border-color: #000;
-  --logo-color: #000;
-  --category-color: #011f1f;
-  --sun: #ffff00;
+  --background-color: linear-gradient(160deg, #74ebd5 0%, #9face6 100%);
+  --text-color: #2c3e50;
+  --border-color: #2980b9;
+  --logo-color: #8e44ad;
+  --category-color: #001e89;
+  --sun: #f39c12;
+  --header-start-color: #76b4b4;
+  --header-middle-color: #2d6371c9;  
+  --header-end-color: #028096;
   --header: #81b29a;
   --img: #fff;
-  --search: #000;
-  --contact: #000;
-  --img-bg: #5f5a5a2e;
-  --img-info: #8ecae6;
-  --cart-user-bg: #bec0b9;
-  --cart-bg: #5ea8dd;
+  --search: #34495e;
+  --contact: #34495e;
+  --img-bg: #dfe6e9;
+  --img-info: #74b9ff;
+  --cart-user-bg: #989392;
+  --cart-bg: #81ecec;
 }
 
 :root.dark {
-  --background-color: #023047;
-  --text-color: #ffffff;
-  --border-color: #0e8e03;
-  --logo-color: #0e8e03;
-  --category-color: #08e803;
-  --sun: #fff;
-  --header: #170a0ac8;
-  --img: #454343a8;
-  --search: #fff;
-  --contact: #fff;
-  --img-bg: #80808075;
-  --img-info: #001d3d;
-  --cart-user-bg: #2a9d8f;
-  --cart-bg: #040417cb;
+  --background-color: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+  --text-color: #ecf0f1;
+  --border-color: #27ae60;
+  --logo-color: #1abc9c;
+  --category-color: #07ff9c;
+  --sun: #f1c40f;
+  --header-start-color: #303941;
+  --header-middle-color: #314c64; 
+  --header-end-color: #020d16; 
+  --header: #34495e;
+  --img: #95a5a6;
+  --search: #ecf0f1;
+  --contact: #ecf0f1;
+  --img-bg: #2c3e50;
+  --img-info: #1abc9c;
+  --cart-user-bg: #584742;
+  --cart-bg: #0984e3;
 }
